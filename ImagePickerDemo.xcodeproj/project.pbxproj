@@ -14,6 +14,7 @@
 		CE2AAC3E291D07EF009B4FB3 /* ImagePickerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC3D291D07EF009B4FB3 /* ImagePickerDemoTests.swift */; };
 		CE2AAC48291D07EF009B4FB3 /* ImagePickerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC47291D07EF009B4FB3 /* ImagePickerDemoUITests.swift */; };
 		CE2AAC4A291D07EF009B4FB3 /* ImagePickerDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC49291D07EF009B4FB3 /* ImagePickerDemoUITestsLaunchTests.swift */; };
+		CE2AAC59291D096B009B4FB3 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AAC58291D096B009B4FB3 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CE2AAC43291D07EF009B4FB3 /* ImagePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2AAC47291D07EF009B4FB3 /* ImagePickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDemoUITests.swift; sourceTree = "<group>"; };
 		CE2AAC49291D07EF009B4FB3 /* ImagePickerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE2AAC58291D096B009B4FB3 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				CE2AAC2C291D07EC009B4FB3 /* ImagePickerDemoApp.swift */,
-				CE2AAC2E291D07EC009B4FB3 /* ContentView.swift */,
+				CE2AAC57291D0945009B4FB3 /* Views */,
 				CE2AAC30291D07EF009B4FB3 /* Assets.xcassets */,
 				CE2AAC32291D07EF009B4FB3 /* Preview Content */,
 			);
@@ -125,6 +127,15 @@
 				CE2AAC49291D07EF009B4FB3 /* ImagePickerDemoUITestsLaunchTests.swift */,
 			);
 			path = ImagePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE2AAC57291D0945009B4FB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AAC2E291D07EC009B4FB3 /* ContentView.swift */,
+				CE2AAC58291D096B009B4FB3 /* ImagePicker.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2AAC59291D096B009B4FB3 /* ImagePicker.swift in Sources */,
 				CE2AAC2F291D07EC009B4FB3 /* ContentView.swift in Sources */,
 				CE2AAC2D291D07EC009B4FB3 /* ImagePickerDemoApp.swift in Sources */,
 			);
