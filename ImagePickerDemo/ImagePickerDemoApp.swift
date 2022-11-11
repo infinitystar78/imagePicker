@@ -11,7 +11,7 @@ import SwiftUI
 struct ImagePickerDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhotoPickerView()
         }
     }
 }
